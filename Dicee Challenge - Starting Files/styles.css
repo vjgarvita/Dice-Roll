@@ -1,0 +1,143 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.btn {
+  margin: 20px;
+  margin-left: 28rem;
+  width: 130px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #f0ecfc 0%, #ecd19a 74%);
+  line-height: 42px;
+  padding: 3px;
+  margin-bottom: 30px;
+  border: none;
+  text-decoration: none !important;
+}
+
+.btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn:before,
+.btn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #874C62;
+  transition: all 0.3s ease;
+}
+
+.btn:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn:after {
+  width: 0%;
+  height: 2px;
+}
+
+.btn:hover:before {
+  height: 100%;
+}
+
+.btn:hover:after {
+  width: 100%;
+}
+
+.btn:hover {
+  background: transparent;
+}
+
+.btn span:hover {
+  color: #874C62;
+}
+
+.btn span:before,
+.btn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #ecd19a;
+  /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+  transition: all 0.3s ease;
+}
+
+.btn span:before {
+  width: 5px;
+  height: 0%;
+}
+
+.btn span:after {
+  height: 2px;
+  width: 0%;
+}
+
+.btn span:hover:before {
+  height: 100%;
+}
+
+.btn span:hover:after {
+  width: 100%;
+}
